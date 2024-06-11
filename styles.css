@@ -1,0 +1,49 @@
+* {
+    background-color: rgb(40,40,40);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formContainer {
+    display: none;
+}
+
+.listCard {
+    display: flex;
+}
+
+.listCardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.listCardInfo > div {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.listCardDeleteButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.listCardDeleteButton > button {
+    flex: 0 1 auto;
+    height: min-content;
+    margin-top: 10px;
+}
